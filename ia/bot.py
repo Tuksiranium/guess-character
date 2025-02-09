@@ -6,7 +6,7 @@ class Bot:
     def __init__(self,
                  role_name: str,
                  prompt: list,
-                 model_id: str = "meta-llama/Llama-3.1-8B-Instruct",
+                 model_id: str = "meta-llama/Llama-3.2-1B-Instruct",
                  generation_config: dict = {
                     "do_sample": True,
                     "device_map": "auto",

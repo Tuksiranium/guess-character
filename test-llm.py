@@ -1,7 +1,12 @@
+import os
+from dotenv import load_dotenv
+
 from transformers import Text2TextGenerationPipeline, GenerationConfig, AutoModelForCausalLM, AutoTokenizer
 import torch
 
-access_token = '...'
+load_dotenv()
+
+access_token = os.getenv("HF_TOKEN")
 
 # messages = """
 # <|im_start|>system

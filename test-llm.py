@@ -26,7 +26,7 @@ chat = [
         "content": "Assistant is a celebrity named Michel Jakson. User will ask Assistant question about his history and personnality, trying to find the name of the Assistant. Assistant will never give his name."
     },
     {
-        "role": "assistant",
+        "role": "personnage",
         "content": "Hey! Let's the game start! Go on and try to find who I am!"
     },
     {

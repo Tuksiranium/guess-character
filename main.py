@@ -13,10 +13,10 @@ def main() -> None:
     ])
 
     while True:
-        user_input = input("> ")
+        user_input = input("\n> ")
         print(bot.send_message_and_get_response(user_input))
-        # if user_input.find("Michel Jakson"):
-        #     break
+        if "Michel Jakson" in user_input:
+            break
     
     print("\nCongrats, you win!")
 
